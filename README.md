@@ -1,4 +1,5 @@
 see https://github.com/SonarOpenCommunity/sonar-cxx/issues/1573
+
 see run.sh
 
 ```BASH
