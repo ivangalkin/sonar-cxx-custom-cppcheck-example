@@ -22,7 +22,7 @@
 # 4. execute cppcheck with custom library specification
 #   (tested with cppcheck v1.84, CFG might be incompatible with older versions, please see documentation)
 
-cppcheck --enable=all --suppress=missingIncludeSystem --library=custom.cfg --xml --xml-version=2 --output-file=cppcheck.xml src/
+cppcheck --enable=all --suppress=missingIncludeSystem --library=custom_cppcheck_library.cfg --xml --xml-version=2 --output-file=cppcheck.xml src/
 
 #    cppcheck.xml must contain several entries like
 #
