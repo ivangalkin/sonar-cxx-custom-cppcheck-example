@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<rules>
+  <rule>
+    <key>printfCalled</key>
+    <name>Obsolescent function 'printf' called.</name>
+    <description>
+      <![CDATA[<p>Obsolescent function 'printf' called. Applications are recommended to be rewritten to use C++ stream operators.</p><p><small>This is a custom rule for our project</small></p>]]>
+    </description>
+    <type>CODE_SMELL</type>
+    <severity>MAJOR</severity>
+  </rule>
+</rules>
